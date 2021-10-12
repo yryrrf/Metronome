@@ -5,7 +5,7 @@ Demo: <a href="https://yryrrf.github.io/Metronome/index.html">Here</a>
 # Tutorial
 Load javascript
 ```HTML
-<script src="assets/js/record/recorder-core.js"></script>
+<script src="metronome.js"></script>
 ```
 
 
@@ -26,5 +26,5 @@ metronome.stop();
 
 Change tempo
 ```HTML
-metronome.tempo = (int);
+metronome.tempo = 60; //set tempo value
 ```
