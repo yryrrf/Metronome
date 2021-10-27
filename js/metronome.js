@@ -60,6 +60,7 @@ class Metronome{
       
     stop(callbackFn) {
         this.tick.stop(this.audioCtx.currentTime);
+        this.playing = false;
     }
     
 }
